@@ -37,7 +37,7 @@ My default contribution loop is:
 
 My research work is centered on **Financial ML / quantitative modeling** and **reliable AI**. I have worked on large-scale financial time-series research infrastructure, real-market quantitative modeling, and reliable multi-agent financial forecasting. Public repositories are intentionally separated from proprietary market data, employer IP, credentials, and private research assets.
 
-Research details: **[Academic site](https://altairpaca.github.io/)** · **[Google Scholar](https://scholar.google.com/citations?user=md5Z-D8AAAAJ)**
+Research details: **[Academic site](https://altairpaca.github.io/)** · **[Google Scholar](https://scholar.google.com/citations?user=md5Z-D8AAAAJ)** · **[LinkedIn](https://www.linkedin.com/in/zhenzhuo-li-2a2bb0307/)**
 
 ## Current OSS priorities
 
