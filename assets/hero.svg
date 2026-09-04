@@ -1,41 +1,71 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
   <title id="title">Zhenzhuo Altair Li — Financial ML, Quantitative Research, Reliable AI and Decision Systems</title>
-  <desc id="desc">A restrained academic profile banner linking financial machine learning, reliable AI, and auditable decision systems.</desc>
+  <desc id="desc">A dark research-tech profile banner linking financial machine learning, reliable AI, and auditable decision systems.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#f7f4ec"/>
-      <stop offset="1" stop-color="#eaf0ef"/>
+      <stop offset="0" stop-color="#07111f"/>
+      <stop offset="0.52" stop-color="#0b1727"/>
+      <stop offset="1" stop-color="#102534"/>
     </linearGradient>
     <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#234b63"/>
-      <stop offset="1" stop-color="#4f746b"/>
+      <stop offset="0" stop-color="#68b7ff"/>
+      <stop offset="0.55" stop-color="#6bd6c1"/>
+      <stop offset="1" stop-color="#d2a563"/>
     </linearGradient>
+    <radialGradient id="glowBlue" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#2d8fd5" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#2d8fd5" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowTeal" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#4eb29f" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#4eb29f" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M34 0H0V34" fill="none" stroke="#9eb5c8" stroke-width="0.55" opacity="0.08"/>
+    </pattern>
   </defs>
+
   <rect width="1200" height="360" rx="28" fill="url(#bg)"/>
-  <path d="M0 290 C160 240 280 338 430 270 S720 215 920 272 S1080 305 1200 248 L1200 360 L0 360 Z" fill="#dce6e2" opacity=".58"/>
-  <circle cx="1035" cy="82" r="118" fill="#dce6e2" opacity=".7"/>
-  <circle cx="1110" cy="40" r="46" fill="#e8dfd0" opacity=".9"/>
+  <rect width="1200" height="360" rx="28" fill="url(#grid)"/>
+  <circle cx="1040" cy="80" r="180" fill="url(#glowBlue)"/>
+  <circle cx="845" cy="310" r="210" fill="url(#glowTeal)"/>
+  <path d="M0 302 C175 250 300 334 456 278 S760 215 930 270 S1090 307 1200 252 L1200 360 L0 360 Z" fill="#173447" opacity="0.42"/>
 
-  <text x="72" y="88" font-family="Georgia, 'Times New Roman', serif" font-size="46" font-weight="700" fill="#17212c">Zhenzhuo (Altair) Li</text>
-  <text x="74" y="126" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-size="19" font-weight="600" fill="#4c5968">Financial ML · Quantitative Research · Reliable AI &amp; Decision Systems</text>
+  <g>
+    <text x="68" y="82" font-family="Georgia, 'Times New Roman', serif" font-size="42" font-weight="700" fill="#f1f6fb">Zhenzhuo (Altair) Li</text>
+    <text x="70" y="118" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-size="17" font-weight="600" fill="#a8bfd0">Financial ML · Quantitative Research · Reliable AI &amp; Decision Systems</text>
+    <rect x="68" y="148" width="500" height="3" rx="1.5" fill="url(#accent)"/>
 
-  <rect x="72" y="158" width="505" height="4" rx="2" fill="url(#accent)"/>
-  <text x="72" y="202" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-size="17" fill="#39485a">I build and study systems where</text>
-  <text x="72" y="232" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-style="italic" fill="#234b63">state, evidence, time, and failure boundaries are explicit.</text>
-  <text x="72" y="275" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-size="15" fill="#66727f">HKUST(GZ) Data Science · Quant Research Intern · ACM ICAIF 2025 · 2027 PhD applicant</text>
+    <text x="68" y="192" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-size="16" fill="#c6d4df">I build and study systems where</text>
+    <text x="68" y="223" font-family="Georgia, 'Times New Roman', serif" font-size="21" font-style="italic" fill="#7fc8ff">state, evidence, time, and failure boundaries are explicit.</text>
+    <text x="68" y="266" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-size="14.5" fill="#91a6b7">HKUST(GZ) Data Science · Quant Research Intern · ACM ICAIF 2025 · 2027 PhD applicant</text>
+  </g>
 
-  <g transform="translate(720 150)">
-    <rect x="0" y="0" width="154" height="58" rx="14" fill="#fffdf9" stroke="#c9d3d7"/>
-    <rect x="182" y="0" width="154" height="58" rx="14" fill="#fffdf9" stroke="#c9d3d7"/>
-    <rect x="364" y="0" width="154" height="58" rx="14" fill="#fffdf9" stroke="#c9d3d7"/>
-    <text x="77" y="25" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-size="13" font-weight="700" fill="#234b63">Financial ML</text>
-    <text x="77" y="43" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-size="11" fill="#687482">non-stationarity · OOT</text>
-    <text x="259" y="25" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-size="13" font-weight="700" fill="#4f746b">Reliable AI</text>
-    <text x="259" y="43" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-size="11" fill="#687482">evidence · verification</text>
-    <text x="441" y="25" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-size="13" font-weight="700" fill="#8a6842">Decision Systems</text>
-    <text x="441" y="43" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-size="11" fill="#687482">provenance · policy</text>
-    <path d="M154 29 H182 M336 29 H364" stroke="#9caab1" stroke-width="2" stroke-dasharray="4 5"/>
-    <circle cx="168" cy="29" r="4" fill="#234b63"/>
-    <circle cx="350" cy="29" r="4" fill="#4f746b"/>
+  <g transform="translate(735 116)" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif">
+    <rect x="0" y="0" width="390" height="180" rx="18" fill="#0c1827" stroke="#365069" stroke-width="1.2"/>
+    <text x="22" y="28" font-size="10.5" font-weight="700" letter-spacing="1.4" fill="#7d94a7">RESEARCH → SYSTEMS</text>
+
+    <g transform="translate(22 48)">
+      <rect x="0" y="0" width="346" height="34" rx="9" fill="#10263a" stroke="#2e5878"/>
+      <circle cx="18" cy="17" r="4" fill="#68b7ff"/>
+      <text x="32" y="15" font-size="12.5" font-weight="700" fill="#e8f2f9">Financial ML</text>
+      <text x="32" y="27" font-size="10.5" fill="#91a6b7">non-stationarity · causal information sets · OOT</text>
+    </g>
+
+    <g transform="translate(22 91)">
+      <rect x="0" y="0" width="346" height="34" rx="9" fill="#102a2d" stroke="#376a63"/>
+      <circle cx="18" cy="17" r="4" fill="#6bd6c1"/>
+      <text x="32" y="15" font-size="12.5" font-weight="700" fill="#e8f4f1">Reliable AI</text>
+      <text x="32" y="27" font-size="10.5" fill="#94aea8">evidence · verification · explicit state</text>
+    </g>
+
+    <g transform="translate(22 134)">
+      <rect x="0" y="0" width="346" height="34" rx="9" fill="#2a2117" stroke="#6d593c"/>
+      <circle cx="18" cy="17" r="4" fill="#d2a563"/>
+      <text x="32" y="15" font-size="12.5" font-weight="700" fill="#f4ecdf">Decision Systems</text>
+      <text x="32" y="27" font-size="10.5" fill="#b8a892">provenance · policy · auditable execution</text>
+    </g>
+
+    <path d="M355 65 h17 v43 h-17 M355 108 h17 v43 h-17" fill="none" stroke="#5c7486" stroke-width="1.2" stroke-dasharray="3 4" opacity="0.8"/>
   </g>
 </svg>
