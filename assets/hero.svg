@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Zhenzhuo Altair Li — Financial ML, Quantitative Research, Reliable AI and Decision Systems</title>
+  <desc id="desc">A restrained academic profile banner linking financial machine learning, reliable AI, and auditable decision systems.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7f4ec"/>
+      <stop offset="1" stop-color="#eaf0ef"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#234b63"/>
+      <stop offset="1" stop-color="#4f746b"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="360" rx="28" fill="url(#bg)"/>
+  <path d="M0 290 C160 240 280 338 430 270 S720 215 920 272 S1080 305 1200 248 L1200 360 L0 360 Z" fill="#dce6e2" opacity=".58"/>
+  <circle cx="1035" cy="82" r="118" fill="#dce6e2" opacity=".7"/>
+  <circle cx="1110" cy="40" r="46" fill="#e8dfd0" opacity=".9"/>
+
+  <text x="72" y="88" font-family="Georgia, 'Times New Roman', serif" font-size="46" font-weight="700" fill="#17212c">Zhenzhuo (Altair) Li</text>
+  <text x="74" y="126" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-size="19" font-weight="600" fill="#4c5968">Financial ML · Quantitative Research · Reliable AI &amp; Decision Systems</text>
+
+  <rect x="72" y="158" width="505" height="4" rx="2" fill="url(#accent)"/>
+  <text x="72" y="202" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-size="17" fill="#39485a">I build and study systems where</text>
+  <text x="72" y="232" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-style="italic" fill="#234b63">state, evidence, time, and failure boundaries are explicit.</text>
+  <text x="72" y="275" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-size="15" fill="#66727f">HKUST(GZ) Data Science · Quant Research Intern · ACM ICAIF 2025 · 2027 PhD applicant</text>
+
+  <g transform="translate(720 150)">
+    <rect x="0" y="0" width="154" height="58" rx="14" fill="#fffdf9" stroke="#c9d3d7"/>
+    <rect x="182" y="0" width="154" height="58" rx="14" fill="#fffdf9" stroke="#c9d3d7"/>
+    <rect x="364" y="0" width="154" height="58" rx="14" fill="#fffdf9" stroke="#c9d3d7"/>
+    <text x="77" y="25" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-size="13" font-weight="700" fill="#234b63">Financial ML</text>
+    <text x="77" y="43" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-size="11" fill="#687482">non-stationarity · OOT</text>
+    <text x="259" y="25" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-size="13" font-weight="700" fill="#4f746b">Reliable AI</text>
+    <text x="259" y="43" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-size="11" fill="#687482">evidence · verification</text>
+    <text x="441" y="25" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-size="13" font-weight="700" fill="#8a6842">Decision Systems</text>
+    <text x="441" y="43" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-size="11" fill="#687482">provenance · policy</text>
+    <path d="M154 29 H182 M336 29 H364" stroke="#9caab1" stroke-width="2" stroke-dasharray="4 5"/>
+    <circle cx="168" cy="29" r="4" fill="#234b63"/>
+    <circle cx="350" cy="29" r="4" fill="#4f746b"/>
+  </g>
+</svg>
