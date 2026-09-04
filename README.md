@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/hero.svg" alt="Zhenzhuo (Altair) Li — Financial ML, Quantitative Research, Reliable AI and Decision Systems" width="100%">
+  <img src="assets/hero.svg?v=20260904-dark2" alt="Zhenzhuo (Altair) Li — Financial ML, Quantitative Research, Reliable AI and Decision Systems" width="100%">
 </p>
 
 <p align="center">
@@ -32,7 +32,7 @@ My 2027 PhD applications are centered on the methodological overlap between **Fi
 | **[AlphaSeeker-TradeMaster](https://github.com/Altairpaca/AlphaSeeker-TradeMaster)** | research artifact maintainer | Financial time-series forecasting artifact from TradeMaster Cup 2026 with chronological validation and an explicit audit of offline-versus-causal information boundaries. |
 
 <p align="center">
-  <img src="assets/portfolio-map.svg" alt="Map from research questions to public artifacts and engineering evidence" width="100%">
+  <img src="assets/portfolio-map.svg?v=20260904-dark2" alt="Map from research questions to public artifacts and engineering evidence" width="100%">
 </p>
 
 ## Applied systems
