@@ -39,8 +39,8 @@ My 2027 PhD applications are centered on the methodological overlap between **Fi
 
 | Project | Surface | Engineering signal |
 | --- | --- | --- |
-| **[LedgerNest](https://github.com/Altairpaca/ledgernest)** | self-hosted collaborative accounting | explicit accounting semantics, multi-user isolation, audit trails, import/export correctness, mobile-first product delivery |
-| **[Keji](https://github.com/Altairpaca/keji)** | self-hosted client-work CRM | privacy-oriented vertical product engineering, document workflows, permissions, backup/restore, operational auditability |
+| **[LedgerNest](https://github.com/Altairpaca/ledgernest)** · [EN overview](https://github.com/Altairpaca/ledgernest/blob/main/README.en.md) | self-hosted collaborative accounting | explicit accounting semantics, multi-user isolation, audit trails, import/export correctness, mobile-first product delivery |
+| **[Keji](https://github.com/Altairpaca/keji)** · [EN overview](https://github.com/Altairpaca/keji/blob/main/README.en.md) | self-hosted client-work CRM | privacy-oriented vertical product engineering, document workflows, permissions, backup/restore, operational auditability |
 | **[dsh-computer-use-windows](https://github.com/Altairpaca/dsh-computer-use-windows)** | Windows computer-use bridge | OCR-grounded actions, bounded verification, explicit failure evidence, hosted-CI versus real-desktop validation boundaries |
 
 Small personal and experimental repositories remain public when they have a useful independent boundary, but they are intentionally not part of the main research / career narrative.
