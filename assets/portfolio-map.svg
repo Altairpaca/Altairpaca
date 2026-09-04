@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">Research to systems portfolio map</title>
+  <desc id="desc">A visual map connecting research questions with selected projects and upstream engineering work.</desc>
+  <rect width="1200" height="520" rx="24" fill="#fbfaf6"/>
+  <text x="54" y="52" font-family="Georgia, 'Times New Roman', serif" font-size="28" font-weight="700" fill="#17212c">Research ↔ Systems Portfolio</text>
+  <text x="54" y="78" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-size="14" fill="#6b7480">One research identity, expressed through models, decision systems, and upstream engineering.</text>
+
+  <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif">
+    <text x="56" y="126" font-size="11" font-weight="700" letter-spacing="1.4" fill="#4f746b">RESEARCH QUESTIONS</text>
+    <text x="474" y="126" font-size="11" font-weight="700" letter-spacing="1.4" fill="#234b63">PUBLIC ARTIFACTS</text>
+    <text x="894" y="126" font-size="11" font-weight="700" letter-spacing="1.4" fill="#8a6842">ENGINEERING EVIDENCE</text>
+
+    <g>
+      <rect x="54" y="150" width="300" height="86" rx="14" fill="#edf3f0" stroke="#cbd8d4"/>
+      <text x="76" y="180" font-size="15" font-weight="700" fill="#2d544c">Non-stationary sequential learning</text>
+      <text x="76" y="203" font-size="12" fill="#60716d">information sets · regime shift · OOT</text>
+      <text x="76" y="220" font-size="12" fill="#60716d">robust evaluation · temporal validity</text>
+    </g>
+    <g>
+      <rect x="54" y="258" width="300" height="86" rx="14" fill="#eef2f5" stroke="#c9d3da"/>
+      <text x="76" y="288" font-size="15" font-weight="700" fill="#234b63">Financial ML &amp; decision-making</text>
+      <text x="76" y="311" font-size="12" fill="#61707d">market microstructure · factor signals</text>
+      <text x="76" y="328" font-size="12" fill="#61707d">execution constraints · model risk</text>
+    </g>
+    <g>
+      <rect x="54" y="366" width="300" height="86" rx="14" fill="#f5efe7" stroke="#ddcfbd"/>
+      <text x="76" y="396" font-size="15" font-weight="700" fill="#7d5d3a">Reliable AI &amp; research agents</text>
+      <text x="76" y="419" font-size="12" fill="#746657">evidence · state · verification</text>
+      <text x="76" y="436" font-size="12" fill="#746657">calibration · failure boundaries</text>
+    </g>
+
+    <g>
+      <rect x="454" y="144" width="330" height="92" rx="14" fill="#ffffff" stroke="#cfd6db"/>
+      <text x="476" y="174" font-size="16" font-weight="700" fill="#17212c">LENS / AlphaSeeker</text>
+      <text x="476" y="197" font-size="12" fill="#64717f">financial time-series representation,</text>
+      <text x="476" y="214" font-size="12" fill="#64717f">chronological evaluation &amp; leakage audit</text>
+    </g>
+    <g>
+      <rect x="454" y="260" width="330" height="92" rx="14" fill="#ffffff" stroke="#cfd6db"/>
+      <text x="476" y="290" font-size="16" font-weight="700" fill="#17212c">Clausula</text>
+      <text x="476" y="313" font-size="12" fill="#64717f">deterministic financial truth, temporal</text>
+      <text x="476" y="330" font-size="12" fill="#64717f">provenance, policy &amp; decision lineage</text>
+    </g>
+    <g>
+      <rect x="454" y="376" width="330" height="92" rx="14" fill="#ffffff" stroke="#cfd6db"/>
+      <text x="476" y="406" font-size="16" font-weight="700" fill="#17212c">DSHelm / FYP</text>
+      <text x="476" y="429" font-size="12" fill="#64717f">explainable routing, evidence aggregation,</text>
+      <text x="476" y="446" font-size="12" fill="#64717f">verification &amp; auditable agent behavior</text>
+    </g>
+
+    <g>
+      <rect x="864" y="150" width="282" height="86" rx="14" fill="#fffdf9" stroke="#ddd2c3"/>
+      <text x="886" y="180" font-size="15" font-weight="700" fill="#7d5d3a">Upstream contributions</text>
+      <text x="886" y="203" font-size="12" fill="#74685b">session isolation · SDK failures</text>
+      <text x="886" y="220" font-size="12" fill="#74685b">provider/cache · release correctness</text>
+    </g>
+    <g>
+      <rect x="864" y="258" width="282" height="86" rx="14" fill="#fffdf9" stroke="#ddd2c3"/>
+      <text x="886" y="288" font-size="15" font-weight="700" fill="#7d5d3a">Applied systems</text>
+      <text x="886" y="311" font-size="12" fill="#74685b">LedgerNest · Keji · Windows CU</text>
+      <text x="886" y="328" font-size="12" fill="#74685b">audit · isolation · deployment</text>
+    </g>
+    <g>
+      <rect x="864" y="366" width="282" height="86" rx="14" fill="#fffdf9" stroke="#ddd2c3"/>
+      <text x="886" y="396" font-size="15" font-weight="700" fill="#7d5d3a">Build philosophy</text>
+      <text x="886" y="419" font-size="12" fill="#74685b">reproduce → invariant → boundary</text>
+      <text x="886" y="436" font-size="12" fill="#74685b">→ regression → smallest durable fix</text>
+    </g>
+  </g>
+
+  <g fill="none" stroke-linecap="round" stroke-width="2">
+    <path d="M354 193 C398 193 410 190 454 190" stroke="#7aa095"/>
+    <path d="M354 301 C398 301 410 306 454 306" stroke="#688ba3"/>
+    <path d="M354 409 C398 409 410 422 454 422" stroke="#b18a5f"/>
+    <path d="M784 190 C824 190 830 193 864 193" stroke="#9ca8ad" stroke-dasharray="5 6"/>
+    <path d="M784 306 C824 306 830 301 864 301" stroke="#9ca8ad" stroke-dasharray="5 6"/>
+    <path d="M784 422 C824 422 830 409 864 409" stroke="#9ca8ad" stroke-dasharray="5 6"/>
+  </g>
+</svg>
