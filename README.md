@@ -19,7 +19,7 @@ This GitHub profile is my **engineering and public-research evidence surface**. 
 | --- | --- | --- |
 | **Financial ML / Quantitative Research** | How do models remain valid under non-stationarity, changing information sets, signal redundancy, and realistic temporal evaluation? | LENS (ACM ICAIF 2025), real-market Level-2 research, AlphaSeeker, quantitative internship |
 | **Reliable AI & Decision Systems** | How should high-stakes systems expose temporal provenance, policy boundaries, uncertainty, and decision lineage instead of hiding them behind model output? | Clausula, Reliable Multi-Agent Financial Forecasting FYP |
-| **Agent / Research Systems** | How can autonomous research and tool-using systems make state, provider semantics, evidence, and failure behavior auditable? | DSHelm, upstream Senpi / oh-my-openagent work, Windows computer-use bridge |
+| **Agent / Research Systems** | How can autonomous research and tool-using systems make state, provider semantics, evidence, and failure behavior auditable? | DSHelm; SkillBench / Agent Harness Index / Local Agent Gateway; upstream Senpi / oh-my-openagent work |
 
 My 2027 PhD applications are centered on the methodological overlap between **Financial ML, non-stationary sequential learning, robust evaluation, reliable AI, and data/agent systems**. Long term, I expect to work close to quantitative research and Financial AI while keeping the underlying research questions transferable beyond a single market or model family.
 
@@ -34,6 +34,14 @@ My 2027 PhD applications are centered on the methodological overlap between **Fi
 <p align="center">
   <img src="assets/portfolio-map.svg?v=20260904-dark2" alt="Map from research questions to public artifacts and engineering evidence" width="100%">
 </p>
+
+## Agent evidence infrastructure
+
+| Project | Boundary | Engineering signal |
+| --- | --- | --- |
+| **[SkillBench](https://github.com/Altairpaca/skillbench)** | portable skill conformance and compatibility evidence | content-addressed evidence, regression gates, explicit host/version boundaries, no fabricated runtime compatibility |
+| **[Agent Harness Index](https://github.com/Altairpaca/agent-harness-index)** | normalized harness/model experiment evidence | matched task-set comparison, environment identity, benchmark provenance, evidence discovery without a subjective leaderboard |
+| **[Local Agent Gateway](https://github.com/Altairpaca/local-agent-gateway)** | bounded delegation to local agent runtimes | session-bound authority, logical project identities, tamper-evident receipts, policy-first dispatch and adapter conformance |
 
 ## Applied systems
 
@@ -51,8 +59,8 @@ Small personal and experimental repositories remain public when they have a usef
 | --- | --- | --- |
 | **Session isolation** | [oh-my-openagent #6829](https://github.com/code-yeongyu/oh-my-openagent/pull/6829): diagnosed cross-session ULW continuation state leaking between independent sessions sharing one working directory; proposed explicit session scoping and fail-closed status reads. | Maintainer called the diagnosis “correct and load-bearing”; the final upstream fix adopted the session-scope module boundary and credited me through co-authorship. |
 | **SDK failure semantics** | [senpi #1223](https://github.com/code-yeongyu/senpi/pull/1223): centralized terminal-result failure classification across streaming, managed failover, resident settlement, and successful-turn bookkeeping. | The shared failure-classification design was adopted and explicitly credited in the merged upstream implementation. |
-| **Provider/cache semantics** | [senpi #1237](https://github.com/code-yeongyu/senpi/pull/1237): models prompt-cache lifetime as `fixed`, `automatic`, `disabled`, or `unknown`, avoiding fabricated TTL/savings claims for provider-managed caching. | Active upstream review. |
-| **Release correctness** | [senpi #1224](https://github.com/code-yeongyu/senpi/pull/1224): preserves the Linux x64 PTY prebuild through build → artifact staging → npm packaging and makes required-target publication fail closed. | Active upstream review. |
+| **Multimodal provider boundary** | [senpi #1421](https://github.com/code-yeongyu/senpi/pull/1421): normalizes tool-result image data URLs at the shared message boundary so Responses serializers cannot double-prefix canonical base64 payloads. | Submitted upstream with focused raw-base64 and already-prefixed regression coverage. |
+| **Safe agent orchestration guidance** | [oh-my-openagent #7880](https://github.com/code-yeongyu/oh-my-openagent/pull/7880): limits parallel fan-out guidance to independent read-only exploration and makes mutation-capable writers serialize unless repository state is isolated. | Submitted upstream with a regression preventing the previous unconditional parallel-write guidance from returning. |
 
 ## How I build
 
