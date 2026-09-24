@@ -1,80 +1,65 @@
 <p align="center">
-  <img src="assets/hero.svg?v=20260904-dark2" alt="Zhenzhuo (Altair) Li — Financial ML, Quantitative Research, Reliable AI and Decision Systems" width="100%">
+  <img src="assets/hero.svg?v=20260924-resume" alt="Zhenzhuo (Altair) Li — Quantitative Research, Financial Data, C++/Rust and High-Performance Computing" width="100%">
 </p>
 
 <p align="center">
-  <a href="https://altairpaca.github.io/"><b>Academic Homepage</b></a> ·
+  <a href="https://altairpaca.github.io/"><b>Homepage</b></a> ·
   <a href="https://scholar.google.com/citations?user=md5Z-D8AAAAJ">Google Scholar</a> ·
   <a href="https://www.linkedin.com/in/zhenzhuo-li-2a2bb0307/">LinkedIn</a> ·
   <a href="https://altairpaca.github.io/assets/resume.pdf">CV</a>
 </p>
 
-I am a Data Science undergraduate at **HKUST(GZ)** and a quantitative research intern. My primary research and career axis is **Financial ML / AI-related Quant**, with a broader interest in reliable learning from non-stationary sequential data and in AI systems whose **state, evidence, time, and failure boundaries are explicit**.
+I am a Data Science undergraduate at **HKUST(GZ)** and a **Quantitative Investment Modeling Research Intern**. My current work spans **A-share Level-2 market microstructure, financial time-series evaluation, large-scale data pipelines, C++/Rust systems, and high-performance computing**.
 
-This GitHub profile is my **engineering and public-research evidence surface**. For publications, research trajectory, education, PhD-facing research direction, and the canonical CV, use my [academic homepage](https://altairpaca.github.io/).
+I prefer evidence that can be reproduced and explained: causal information sets, explicit sample definitions, out-of-time evaluation, independent correctness checks, and benchmark-driven performance work.
 
-## Research & career direction
+## Current focus
 
-| Axis | Questions I care about | Current evidence |
+| Area | What I work on | Evidence |
 | --- | --- | --- |
-| **Financial ML / Quantitative Research** | How do models remain valid under non-stationarity, changing information sets, signal redundancy, and realistic temporal evaluation? | LENS (ACM ICAIF 2025), real-market Level-2 research, AlphaSeeker, quantitative internship |
-| **Reliable AI & Decision Systems** | How should high-stakes systems expose temporal provenance, policy boundaries, uncertainty, and decision lineage instead of hiding them behind model output? | Clausula, Reliable Multi-Agent Financial Forecasting FYP |
-| **Agent / Research Systems** | How can autonomous research and tool-using systems make state, provider semantics, evidence, and failure behavior auditable? | DSHelm; SkillBench / Agent Harness Index / Local Agent Gateway; upstream Senpi / oh-my-openagent work |
+| **Quantitative Research** | Level-2 / minute data, fixed-volume execution structure, market microstructure, event response, signal stability and redundancy | current quantitative internship |
+| **Financial ML & Research** | leakage-resistant time-series evaluation, forecasting under changing information, representation learning | LENS (ACM ICAIF 2025), FYP, SPY VaR |
+| **Systems & HPC** | deterministic replay, C++/Rust stateful systems, scalable data loading, CUDA/TensorRT, cluster profiling | Quant Systems Lab, ASC 2025/2026 |
 
-My 2027 PhD applications are centered on the methodological overlap between **Financial ML, non-stationary sequential learning, robust evaluation, reliable AI, and data/agent systems**. Long term, I expect to work close to quantitative research and Financial AI while keeping the underlying research questions transferable beyond a single market or model family.
+## Selected public work
 
-## Flagship public work
-
-| Project | Role | Why it matters to my profile |
-| --- | --- | --- |
-| **[Clausula](https://github.com/Altairpaca/clausula)** | creator / maintainer | Local-first deterministic investment decision system. Versioned ledgers, point-in-time provenance, policies, research evidence, capital/risk boundaries, and decision memory remain canonical outside the LLM. This is the clearest bridge between my Financial ML interests and reliable-system design. |
-| **[DSHelm](https://github.com/Altairpaca/dshelm)** | creator / maintainer | Explainable multi-model routing for DeepSeek Harness with evidence-backed policy resolution, compatibility boundaries, Resolution Trace, and reproducible execution fixtures. |
-| **[AlphaSeeker-TradeMaster](https://github.com/Altairpaca/AlphaSeeker-TradeMaster)** | research artifact maintainer | Financial time-series forecasting artifact from TradeMaster Cup 2026 with chronological validation and an explicit audit of offline-versus-causal information boundaries. |
+| Project | What it demonstrates |
+| --- | --- |
+| **[quant-systems-lab](https://github.com/Altairpaca/quant-systems-lab)** | Deterministic feed replay and L2 price-level book-state validation with C++20 / Rust / Python, independent oracles, conformance tests and controlled benchmarks. |
+| **[spy-var-mini-project](https://github.com/Altairpaca/spy-var-mini-project)** | One-day conditional VaR forecasting under a strict development → freeze → final OOS protocol; compares classical and small neural models without using the final test for model selection. |
+| **[AlphaSeeker-TradeMaster](https://github.com/Altairpaca/AlphaSeeker-TradeMaster)** | Financial time-series forecasting artifact with chronological validation and explicit auditing of offline-versus-causal information boundaries. |
 
 <p align="center">
-  <img src="assets/portfolio-map.svg?v=20260904-dark2" alt="Map from research questions to public artifacts and engineering evidence" width="100%">
+  <img src="assets/portfolio-map.svg?v=20260924-resume" alt="Research and engineering portfolio map" width="100%">
 </p>
 
-## Agent evidence infrastructure
+## Research experience
 
-| Project | Boundary | Engineering signal |
-| --- | --- | --- |
-| **[SkillBench](https://github.com/Altairpaca/skillbench)** | portable skill conformance and compatibility evidence | content-addressed evidence, regression gates, explicit host/version boundaries, no fabricated runtime compatibility |
-| **[Agent Harness Index](https://github.com/Altairpaca/agent-harness-index)** | normalized harness/model experiment evidence | matched task-set comparison, environment identity, benchmark provenance, evidence discovery without a subjective leaderboard |
-| **[Local Agent Gateway](https://github.com/Altairpaca/local-agent-gateway)** | bounded delegation to local agent runtimes | session-bound authority, logical project identities, tamper-evident receipts, policy-first dispatch and adapter conformance |
+- **LENS: Large Pre-trained Transformer for Exploring Financial Time Series Regularities** — co-author, ACM ICAIF 2025. Built large-scale financial time-series preprocessing and research infrastructure; internal benchmarks reached up to 13× faster cleaning and 6× faster statistical aggregation.
+- **Reliable Multi-Agent Financial Forecasting (FYP)** — ongoing undergraduate research on evidence aggregation, verification, calibration, point-in-time provenance and temporal grounding under noisy financial information. Current work remains in framework/evaluation design and experiment preparation.
+- **SpatialReflect** — first-author independent research on training-free controllable diffusion generation, covering problem formulation, method design, implementation, controlled experiments, manuscript writing and a complete peer-review cycle.
 
-## Applied systems
+## Technical profile
 
-| Project | Surface | Engineering signal |
-| --- | --- | --- |
-| **[LedgerNest](https://github.com/Altairpaca/ledgernest)** · [EN overview](https://github.com/Altairpaca/ledgernest/blob/main/README.en.md) | self-hosted collaborative accounting | explicit accounting semantics, multi-user isolation, audit trails, import/export correctness, mobile-first product delivery |
-| **[Keji](https://github.com/Altairpaca/keji)** · [EN overview](https://github.com/Altairpaca/keji/blob/main/README.en.md) | self-hosted client-work CRM | privacy-oriented vertical product engineering, document workflows, permissions, backup/restore, operational auditability |
-| **[dsh-computer-use-windows](https://github.com/Altairpaca/dsh-computer-use-windows)** | Windows computer-use bridge | OCR-grounded actions, bounded verification, explicit failure evidence, hosted-CI versus real-desktop validation boundaries |
+**C++** — long-term user; strong command of C++17/20 and earlier modern C++, partial C++23 knowledge, and ongoing tracking of C++26. Comfortable with RAII, move semantics, templates/concepts, STL/ranges, lambdas, coroutines, concurrency, CMake, sanitizers, benchmarking and profiling.
 
-Small personal and experimental repositories remain public when they have a useful independent boundary, but they are intentionally not part of the main research / career narrative.
+**Rust** — practical systems-development experience with ownership/borrowing, enum/match, traits/generics, Result/Option and Cargo; used for reliable state components and event-replay style problems.
 
-## Selected upstream impact
+**Python / Data / ML** — NumPy, Polars/pandas, SciPy, scikit-learn, PyTorch, LightGBM, XGBoost, SQL; memory mapping, parallel I/O, model-ready batch construction and reproducible experiments.
 
-| Area | Contribution | Upstream outcome |
-| --- | --- | --- |
-| **Session isolation** | [oh-my-openagent #6829](https://github.com/code-yeongyu/oh-my-openagent/pull/6829): diagnosed cross-session ULW continuation state leaking between independent sessions sharing one working directory; proposed explicit session scoping and fail-closed status reads. | Maintainer called the diagnosis “correct and load-bearing”; the final upstream fix adopted the session-scope module boundary and credited me through co-authorship. |
-| **SDK failure semantics** | [senpi #1223](https://github.com/code-yeongyu/senpi/pull/1223): centralized terminal-result failure classification across streaming, managed failover, resident settlement, and successful-turn bookkeeping. | The shared failure-classification design was adopted and explicitly credited in the merged upstream implementation. |
-| **Claude SDK continuity** | [senpi #1498](https://github.com/code-yeongyu/senpi/pull/1498): canonicalizes only the harness-owned effective `eval` run-summary normalization at the assistant continuity fingerprint boundary while keeping real semantic rewrites fail-closed. | Submitted upstream with a focused 81→80 clamp regression and negative controls for real summary/code rewrites. |
-| **Safe agent orchestration guidance** | [oh-my-openagent #7880](https://github.com/code-yeongyu/oh-my-openagent/pull/7880): limits parallel fan-out guidance to independent read-only exploration and makes mutation-capable writers serialize unless repository state is isolated. | Submitted upstream with a regression preventing the previous unconditional parallel-write guidance from returning. |
+**Systems / HPC** — Linux, Git, Docker, CUDA, TensorRT, MPI, Slurm; GPU/CPU profiling, CPU affinity, NUMA/cache locality and cluster experiment reproduction.
 
-## How I build
+## Selected distinctions
 
-`reproduce → identify the invariant → locate the ownership boundary → make time/state explicit → add regression evidence → implement the smallest durable fix → state residual limits`
-
-Across Financial ML and systems work, I repeatedly care about the same failure mode: **a result can look correct while silently depending on information, state, credentials, execution conditions, or assumptions that will not hold later**. My research and engineering both try to surface those dependencies before they become hidden sources of error.
+ASC World University Supercomputer Competition **First Prize (2026)** and **Second Prize (2025)** · Chinese Physics Olympiad Provincial First Prize ×2 · HKUST(GZ) TradeMaster Cup 2026 **5th Place, team leader** · MCM/ICM 2025 Honorable Mention.
 
 ## Public surface map
 
-| Surface | Canonical role |
+| Surface | Role |
 | --- | --- |
-| **[Academic homepage](https://altairpaca.github.io/)** | PhD / research-job visual CV: research focus, future direction, publications, experience, education, distinctions |
-| **GitHub profile** | engineering depth, public research artifacts, project ownership, upstream review outcomes |
+| **[Homepage](https://altairpaca.github.io/)** | academic / professional overview, research experience, projects, skills, education and CV |
+| **GitHub profile** | public engineering and reproducible research artifacts |
 | **[Google Scholar](https://scholar.google.com/citations?user=md5Z-D8AAAAJ)** | publication record |
-| **[LinkedIn](https://www.linkedin.com/in/zhenzhuo-li-2a2bb0307/)** | professional trajectory and external career identity |
+| **[LinkedIn](https://www.linkedin.com/in/zhenzhuo-li-2a2bb0307/)** | professional trajectory |
 
-<sub>Public repositories are intentionally separated from proprietary market data, employer IP, credentials, personal financial records, and private research assets.</sub>
+<sub>Employer data, proprietary research code, trading signals, credentials and personal financial records are intentionally kept outside public repositories.</sub>
