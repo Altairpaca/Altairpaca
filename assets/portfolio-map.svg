@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
-  <title id="title">Research to systems portfolio map</title>
-  <desc id="desc">A dark visual map connecting research questions with selected projects and upstream engineering work.</desc>
+  <title id="title">Research and engineering portfolio map</title>
+  <desc id="desc">A dark visual map connecting quantitative research questions with selected research projects and systems engineering evidence.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#07111f"/>
@@ -25,69 +25,69 @@
   <circle cx="1000" cy="95" r="210" fill="url(#blueGlow)"/>
   <circle cx="300" cy="450" r="230" fill="url(#tealGlow)"/>
 
-  <text x="54" y="52" font-family="Georgia, 'Times New Roman', serif" font-size="28" font-weight="700" fill="#edf4fa">Research ↔ Systems Portfolio</text>
-  <text x="54" y="78" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-size="14" fill="#91a6b7">One research identity, expressed through models, decision systems, and upstream engineering.</text>
+  <text x="54" y="52" font-family="Georgia, 'Times New Roman', serif" font-size="28" font-weight="700" fill="#edf4fa">Research ↔ Engineering Portfolio</text>
+  <text x="54" y="78" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-size="14" fill="#91a6b7">Market data, robust evaluation, and performance-oriented systems form one technical profile.</text>
 
   <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif">
     <text x="56" y="126" font-size="11" font-weight="700" letter-spacing="1.4" fill="#6bd6c1">RESEARCH QUESTIONS</text>
-    <text x="474" y="126" font-size="11" font-weight="700" letter-spacing="1.4" fill="#68b7ff">PUBLIC ARTIFACTS</text>
-    <text x="894" y="126" font-size="11" font-weight="700" letter-spacing="1.4" fill="#d2a563">ENGINEERING EVIDENCE</text>
+    <text x="474" y="126" font-size="11" font-weight="700" letter-spacing="1.4" fill="#68b7ff">RESEARCH ARTIFACTS</text>
+    <text x="894" y="126" font-size="11" font-weight="700" letter-spacing="1.4" fill="#d2a563">SYSTEMS EVIDENCE</text>
 
     <g>
       <rect x="54" y="150" width="300" height="86" rx="14" fill="#0f292c" stroke="#315e58"/>
-      <text x="76" y="180" font-size="15" font-weight="700" fill="#dff5ef">Non-stationary sequential learning</text>
-      <text x="76" y="203" font-size="12" fill="#93ada7">information sets · regime shift · OOT</text>
-      <text x="76" y="220" font-size="12" fill="#93ada7">robust evaluation · temporal validity</text>
+      <text x="76" y="180" font-size="15" font-weight="700" fill="#dff5ef">Market microstructure</text>
+      <text x="76" y="203" font-size="12" fill="#93ada7">Level-2 events · execution topology</text>
+      <text x="76" y="220" font-size="12" fill="#93ada7">price paths · quote response</text>
     </g>
     <g>
       <rect x="54" y="258" width="300" height="86" rx="14" fill="#10253a" stroke="#315b7d"/>
-      <text x="76" y="288" font-size="15" font-weight="700" fill="#e6f2fb">Financial ML &amp; decision-making</text>
-      <text x="76" y="311" font-size="12" fill="#9bb0c1">market microstructure · factor signals</text>
-      <text x="76" y="328" font-size="12" fill="#9bb0c1">execution constraints · model risk</text>
+      <text x="76" y="288" font-size="15" font-weight="700" fill="#e6f2fb">Financial ML &amp; evaluation</text>
+      <text x="76" y="311" font-size="12" fill="#9bb0c1">point-in-time alignment · leakage audits</text>
+      <text x="76" y="328" font-size="12" fill="#9bb0c1">walk-forward / OOT · model risk</text>
     </g>
     <g>
       <rect x="54" y="366" width="300" height="86" rx="14" fill="#2a2117" stroke="#6d593c"/>
-      <text x="76" y="396" font-size="15" font-weight="700" fill="#f4ecdf">Reliable AI &amp; research agents</text>
-      <text x="76" y="419" font-size="12" fill="#baa992">evidence · state · verification</text>
-      <text x="76" y="436" font-size="12" fill="#baa992">calibration · failure boundaries</text>
+      <text x="76" y="396" font-size="15" font-weight="700" fill="#f4ecdf">Reliable forecasting</text>
+      <text x="76" y="419" font-size="12" fill="#baa992">evidence aggregation · calibration</text>
+      <text x="76" y="436" font-size="12" fill="#baa992">temporal provenance · uncertainty</text>
     </g>
 
     <g>
       <rect x="454" y="144" width="330" height="92" rx="14" fill="#0c1827" stroke="#35516b"/>
-      <text x="476" y="174" font-size="16" font-weight="700" fill="#f0f5fa">LENS / AlphaSeeker</text>
-      <text x="476" y="197" font-size="12" fill="#91a6b7">financial time-series representation,</text>
-      <text x="476" y="214" font-size="12" fill="#91a6b7">chronological evaluation &amp; leakage audit</text>
+      <text x="476" y="174" font-size="16" font-weight="700" fill="#f0f5fa">LENS / current Level-2 research</text>
+      <text x="476" y="197" font-size="12" fill="#91a6b7">financial sequence infrastructure,</text>
+      <text x="476" y="214" font-size="12" fill="#91a6b7">market-wide microstructure analysis</text>
     </g>
     <g>
       <rect x="454" y="260" width="330" height="92" rx="14" fill="#0c1827" stroke="#35516b"/>
-      <text x="476" y="290" font-size="16" font-weight="700" fill="#f0f5fa">Clausula</text>
-      <text x="476" y="313" font-size="12" fill="#91a6b7">deterministic financial truth, temporal</text>
-      <text x="476" y="330" font-size="12" fill="#91a6b7">provenance, policy &amp; decision lineage</text>
+      <text x="476" y="290" font-size="16" font-weight="700" fill="#f0f5fa">SPY VaR</text>
+      <text x="476" y="313" font-size="12" fill="#91a6b7">development → freeze → final OOS,</text>
+      <text x="476" y="330" font-size="12" fill="#91a6b7">classical vs small neural models</text>
     </g>
     <g>
       <rect x="454" y="376" width="330" height="92" rx="14" fill="#0c1827" stroke="#35516b"/>
-      <text x="476" y="406" font-size="16" font-weight="700" fill="#f0f5fa">DSHelm / FYP</text>
-      <text x="476" y="429" font-size="12" fill="#91a6b7">explainable routing, evidence aggregation,</text>
-      <text x="476" y="446" font-size="12" fill="#91a6b7">verification &amp; auditable agent behavior</text>
+      <text x="476" y="406" font-size="16" font-weight="700" fill="#f0f5fa">Reliable Multi-Agent FYP</text>
+      <text x="476" y="429" font-size="12" fill="#91a6b7">evidence aggregation, verification,</text>
+      <text x="476" y="446" font-size="12" fill="#91a6b7">calibration &amp; point-in-time provenance</text>
     </g>
 
     <g>
       <rect x="864" y="150" width="282" height="86" rx="14" fill="#181a20" stroke="#5d5143"/>
-      <text x="886" y="180" font-size="15" font-weight="700" fill="#f1e8da">Upstream contributions</text>
-      <text x="886" y="203" font-size="12" fill="#b6aa9a">session isolation · SDK failures</text>
-      <text x="886" y="220" font-size="12" fill="#b6aa9a">provider/cache · release correctness</text>
+      <text x="886" y="180" font-size="15" font-weight="700" fill="#f1e8da">C++ / Rust replay</text>
+      <text x="886" y="203" font-size="12" fill="#b6aa9a">deterministic state · Python oracle</text>
+      <text x="886" y="220" font-size="12" fill="#b6aa9a">sanitizers · conformance · benchmarks</text>
     </g>
     <g>
       <rect x="864" y="258" width="282" height="86" rx="14" fill="#181a20" stroke="#5d5143"/>
-      <text x="886" y="288" font-size="15" font-weight="700" fill="#f1e8da">Applied systems</text>
-      <text x="886" y="311" font-size="12" fill="#b6aa9a">LedgerNest · Keji · Windows CU</text>
-      <text x="886" y="328" font-size="12" fill="#b6aa9a">audit · isolation · deployment</text>
+      <text x="886" y="288" font-size="15" font-weight="700" fill="#f1e8da">ASC / HPC</text>
+      <text x="886" y="311" font-size="12" fill="#b6aa9a">CUDA · TensorRT · MPI · Slurm</text>
+      <text x="886" y="328" font-size="12" fill="#b6aa9a">profiling · NUMA/cache locality</text>
     </g>
     <g>
       <rect x="864" y="366" width="282" height="86" rx="14" fill="#181a20" stroke="#5d5143"/>
-      <text x="886" y="396" font-size="15" font-weight="700" fill="#f1e8da">Build philosophy</text>
-      <text x="886" y="419" font-size="12" fill="#b6aa9a">reproduce → invariant → boundary</text>
-      <text x="886" y="436" font-size="12" fill="#b6aa9a">→ regression → smallest durable fix</text>
+      <text x="886" y="396" font-size="15" font-weight="700" fill="#f1e8da">Data pipelines</text>
+      <text x="886" y="419" font-size="12" fill="#b6aa9a">memory mapping · parallel I/O</text>
+      <text x="886" y="436" font-size="12" fill="#b6aa9a">model-ready batches · reproducibility</text>
     </g>
   </g>
 
