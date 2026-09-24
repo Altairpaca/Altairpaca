@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
-  <title id="title">Zhenzhuo Altair Li — Financial ML, Quantitative Research, Reliable AI and Decision Systems</title>
-  <desc id="desc">A dark research-tech profile banner linking financial machine learning, reliable AI, and auditable decision systems.</desc>
+  <title id="title">Zhenzhuo Altair Li — Quantitative Research, Financial Data, C++/Rust and High-Performance Computing</title>
+  <desc id="desc">A dark research-tech profile banner centered on quantitative research, financial data, systems engineering and HPC.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#07111f"/>
@@ -33,37 +33,37 @@
 
   <g>
     <text x="68" y="82" font-family="Georgia, 'Times New Roman', serif" font-size="42" font-weight="700" fill="#f1f6fb">Zhenzhuo (Altair) Li</text>
-    <text x="70" y="118" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-size="17" font-weight="600" fill="#a8bfd0">Financial ML · Quantitative Research · Reliable AI &amp; Decision Systems</text>
-    <rect x="68" y="148" width="500" height="3" rx="1.5" fill="url(#accent)"/>
+    <text x="70" y="118" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-size="17" font-weight="600" fill="#a8bfd0">Quantitative Research · Financial Data · C++/Rust · High-Performance Computing</text>
+    <rect x="68" y="148" width="590" height="3" rx="1.5" fill="url(#accent)"/>
 
-    <text x="68" y="192" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-size="16" fill="#c6d4df">I build and study systems where</text>
-    <text x="68" y="223" font-family="Georgia, 'Times New Roman', serif" font-size="21" font-style="italic" fill="#7fc8ff">state, evidence, time, and failure boundaries are explicit.</text>
-    <text x="68" y="266" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-size="14.5" fill="#91a6b7">HKUST(GZ) Data Science · Quant Research Intern · ACM ICAIF 2025 · 2027 PhD applicant</text>
+    <text x="68" y="192" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-size="16" fill="#c6d4df">I study market structure, test signals under causal information sets,</text>
+    <text x="68" y="223" font-family="Georgia, 'Times New Roman', serif" font-size="21" font-style="italic" fill="#7fc8ff">and build systems that make research reproducible and fast.</text>
+    <text x="68" y="266" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-size="14.5" fill="#91a6b7">HKUST(GZ) Data Science · Quantitative Investment Modeling Intern · ACM ICAIF 2025 · ASC 2026 First Prize</text>
   </g>
 
   <g transform="translate(735 116)" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif">
     <rect x="0" y="0" width="390" height="180" rx="18" fill="#0c1827" stroke="#365069" stroke-width="1.2"/>
-    <text x="22" y="28" font-size="10.5" font-weight="700" letter-spacing="1.4" fill="#7d94a7">RESEARCH → SYSTEMS</text>
+    <text x="22" y="28" font-size="10.5" font-weight="700" letter-spacing="1.4" fill="#7d94a7">RESEARCH → ENGINEERING</text>
 
     <g transform="translate(22 48)">
       <rect x="0" y="0" width="346" height="34" rx="9" fill="#10263a" stroke="#2e5878"/>
       <circle cx="18" cy="17" r="4" fill="#68b7ff"/>
-      <text x="32" y="15" font-size="12.5" font-weight="700" fill="#e8f2f9">Financial ML</text>
-      <text x="32" y="27" font-size="10.5" fill="#91a6b7">non-stationarity · causal information sets · OOT</text>
+      <text x="32" y="15" font-size="12.5" font-weight="700" fill="#e8f2f9">Quantitative Research</text>
+      <text x="32" y="27" font-size="10.5" fill="#91a6b7">Level-2 · market microstructure · OOT evaluation</text>
     </g>
 
     <g transform="translate(22 91)">
       <rect x="0" y="0" width="346" height="34" rx="9" fill="#102a2d" stroke="#376a63"/>
       <circle cx="18" cy="17" r="4" fill="#6bd6c1"/>
-      <text x="32" y="15" font-size="12.5" font-weight="700" fill="#e8f4f1">Reliable AI</text>
-      <text x="32" y="27" font-size="10.5" fill="#94aea8">evidence · verification · explicit state</text>
+      <text x="32" y="15" font-size="12.5" font-weight="700" fill="#e8f4f1">C++ &amp; Rust Systems</text>
+      <text x="32" y="27" font-size="10.5" fill="#94aea8">deterministic replay · correctness · benchmarks</text>
     </g>
 
     <g transform="translate(22 134)">
       <rect x="0" y="0" width="346" height="34" rx="9" fill="#2a2117" stroke="#6d593c"/>
       <circle cx="18" cy="17" r="4" fill="#d2a563"/>
-      <text x="32" y="15" font-size="12.5" font-weight="700" fill="#f4ecdf">Decision Systems</text>
-      <text x="32" y="27" font-size="10.5" fill="#b8a892">provenance · policy · auditable execution</text>
+      <text x="32" y="15" font-size="12.5" font-weight="700" fill="#f4ecdf">HPC &amp; Data Systems</text>
+      <text x="32" y="27" font-size="10.5" fill="#b8a892">CUDA/TensorRT · parallel I/O · cluster profiling</text>
     </g>
 
     <path d="M355 65 h17 v43 h-17 M355 108 h17 v43 h-17" fill="none" stroke="#5c7486" stroke-width="1.2" stroke-dasharray="3 4" opacity="0.8"/>
